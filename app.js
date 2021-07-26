@@ -23,7 +23,10 @@ async function run() {
           user: app.currentUser,
           partitionValue: "My Partition",
         },
-      });
+    });
+      
+    realm.close();
+
     
 
 }
